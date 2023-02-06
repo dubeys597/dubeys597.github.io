@@ -41,7 +41,7 @@ section{
 .about .about-content,
 .nav-link.skills .skills-content,
 .skills .skills-content,
-.contact .contact-content{
+.contact .contact-content{ 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
