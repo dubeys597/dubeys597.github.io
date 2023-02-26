@@ -271,7 +271,7 @@ section .title::after{
     background: #111;
     content: "what i know";
 }
-.nav-link.skills .skills-content .card{
+.nav-link.skills .skills-content .skills-card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -280,24 +280,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.nav-link.skills .skills-content .card:hover{
+.nav-link.skills .skills-content .skills-card:hover{
     background: crimson;
 }
-.nav-link.skills .skills-content .card .box{
+.nav-link.skills .skills-content .skills-card .box{
     transition: all 0.3s ease;
 }
-.nav-link.skills .skills-content .card:hover .box{
+.nav-link.skills .skills-content .skills-card:hover .box{
     transform: scale(1.05);
 }
-.nav-link.skills .skills-content .card i{
+.nav-link.skills .skills-content .skills-card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.nav-link.skills .skills-content .card:hover i{
+.nav-link.skills .skills-content .skills-card:hover i{
     color: #fff;
 }
-.nav-link.skills .skills-content .card .text{
+.nav-link.skills .skills-content .skills-card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -310,7 +310,7 @@ section .title::after{
 }
 
 
-.nav-link.projects .projects-content{
+.nav-link.projects .project-card{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -454,7 +454,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .services .serv-content .skills-card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -478,7 +478,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .services .serv-content .skills-card{
         width: 100%;
     }
 }
