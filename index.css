@@ -26,7 +26,7 @@ body{
     overflow-x: hidden;
 }
 
-nav{
+header{
     position: fixed;
     width: 100%;
     top: 0;
@@ -157,7 +157,7 @@ section{
     transform: scale(0.9);
 }
 
-nav.sticky{
+header.sticky{
     background: var(--bg-color);
     border-bottom:  1px solid #ffffff1a;
     padding:  12px 15%;
@@ -491,11 +491,11 @@ nav.sticky{
 /* -------------responsive styling */
 
 @media (max-width:1480px){
-    nav{
+    header{
         padding: 12px 2.5%;
         transition: .1s;
     }
-    nav.sticky{
+    header.sticky{
         padding: 10px 2.5%;
         transition: .1s;
     }
